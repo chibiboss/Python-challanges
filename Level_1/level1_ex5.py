@@ -11,3 +11,14 @@ The sequence looks like this: 1, 1, 2, 3, 5, 8, 13,
 
 
 """
+
+serie = []
+x = 0
+y = 1
+numero = int(input("Numero de elementos: "))
+for n in range(numero):
+    serie.append(x + y)
+    fibo = x + y
+    x = y
+    y = fibo
+print(serie)
