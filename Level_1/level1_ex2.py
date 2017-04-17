@@ -10,3 +10,9 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 tuple() method can convert list to tuple
 """
+
+if __name__ == '__main__':
+	valores = input("Ingresa valores separados por coma: ")
+	list = valores.split(',')
+	tupla = tuple(list)
+	print (list, tupla, sep = '\n')
