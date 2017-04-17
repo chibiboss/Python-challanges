@@ -8,8 +8,11 @@ Consider use range(#begin, #end) method
 
 """
 
-def main():
-    pass
-
 if __name__ == '__main__':
-    main()
+	begin = int(input("Ingrese rango de inicio "))
+	end = int(input("Ingrese rango final "))
+	lista = []
+	for x in range(begin, end):
+			if x % 7 == 0 and x % 5 != 0:
+				lista.append(x)
+	print(lista)  	
