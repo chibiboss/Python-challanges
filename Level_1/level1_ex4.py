@@ -24,6 +24,9 @@ def juego(player1,player2):
 	
 	elif player1 == player2 in lista:
 		return 'Empate'
+
+	elif player1 != lista:
+		return 'Elije algo valido'
 	
 	else:
 		return 'Tu pierdes'
